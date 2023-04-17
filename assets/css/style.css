@@ -1,0 +1,86 @@
+* {
+    --bg-color-line: #ECEFF2;
+
+    --fc-span: #FF9900;
+    --fc-link: #FF9900;
+    --fc-description: #7D7987;
+    --ff-page: 'Open Sans', sans-serif;
+    --ff-main-title: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.page {
+    font-family: var(--ff-page);
+    margin: 0 auto;
+    width: 59.2rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.main__title {
+    font-family: var(--ff-main-title);
+    font-size: 4.9rem;
+    font-weight: 400;
+    line-height: 5.6rem;
+    margin: 7.3rem  0 3.1rem;
+}
+
+.main__title span {
+    color: var(--fc-span);
+    font-weight: bold;
+}
+
+.description {
+    color: var(--fc-description);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.description + .description {
+    margin-top: 2.0rem;
+}
+
+.description span {
+    color: var(--fc-span);
+}
+
+.balls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rodape {
+    border-top: 1px solid var(--bg-color-line);
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.footer__lista {
+    padding-top: 8px;
+}
+
+.lista__link {
+    display: inline;
+}
+
+.lista__link + .lista__link {
+    margin-left: 1rem;
+}
+
+.footer__link {
+    color: var(--fc-link);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}    
