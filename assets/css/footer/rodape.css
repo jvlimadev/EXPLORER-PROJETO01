@@ -1,0 +1,5 @@
+.rodape {
+    border-top: 1px solid var(--bg-color-line);
+    margin-top: 7rem;
+    text-align: center;
+}

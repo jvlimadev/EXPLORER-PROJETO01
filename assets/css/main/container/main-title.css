@@ -1,0 +1,12 @@
+.main__title {
+    font-family: var(--ff-main-title);
+    font-size: 4.9rem;
+    font-weight: 400;
+    line-height: 5.6rem;
+    margin: 7.3rem  0 3.1rem;
+}
+
+.main__title span {
+    color: var(--fc-span);
+    font-weight: bold;
+}

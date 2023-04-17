@@ -1,0 +1,17 @@
+* {
+    --bg-color-line: #ECEFF2;
+
+    --fc-span: #FF9900;
+    --fc-link: #FF9900;
+    --fc-description: #7D7987;
+    --ff-page: 'Open Sans', sans-serif;
+    --ff-main-title: 'Inter', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}

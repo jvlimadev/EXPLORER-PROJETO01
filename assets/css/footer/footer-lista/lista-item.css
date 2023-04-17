@@ -1,0 +1,7 @@
+.lista__item {
+    display: inline;
+}
+
+.lista__item + .lista__item {
+    margin-left: 1rem;
+}
