@@ -10,3 +10,10 @@
     color: var(--fc-span);
     font-weight: bold;
 }
+
+@media screen and (min-width: 320px) {
+    .main__title {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+}

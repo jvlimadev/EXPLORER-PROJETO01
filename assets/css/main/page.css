@@ -1,5 +1,15 @@
 .page {
     font-family: var(--ff-page);
+    max-width: 320px;
     margin: 0 auto;
     width: 59.2rem;
+}
+
+@media screen  and (max-width: 320px) {
+    .main__container {
+        padding: 1.0rem;
+    }
+    .container__person {
+        max-width: 320px;
+    }
 }
